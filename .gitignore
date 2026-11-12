@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local files
+*.log
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.fleet/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
